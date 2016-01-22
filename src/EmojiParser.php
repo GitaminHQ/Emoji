@@ -15,11 +15,6 @@ use League\CommonMark\Inline\Element\Image;
 use League\CommonMark\Inline\Parser\AbstractInlineParser;
 use League\CommonMark\InlineParserContext;
 
-/**
- * This is the emoji parser class.
- *
- * @author Graham Campbell <graham@alt-three.com>
- */
 class EmojiParser extends AbstractInlineParser
 {
     /**

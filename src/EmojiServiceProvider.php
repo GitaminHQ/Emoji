@@ -20,11 +20,6 @@ use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 use League\CommonMark\Environment;
 
-/**
- * This is the emoji service provider class.
- *
- * @author Graham Campbell <graham@alt-three.com>
- */
 class EmojiServiceProvider extends ServiceProvider
 {
     /**

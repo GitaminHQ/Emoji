@@ -1,0 +1,41 @@
+{
+    "name": "gitamin/emoji",
+    "description": "Emoji Parser For Gitamin",
+    "keywords": ["emoji", "parser", "Emoji", "Gitamin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gitamin Team",
+            "email": "support@gitamin.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "^5.3|^6.0",
+        "illuminate/contracts": "5.1.*|5.2.*",
+        "illuminate/support": "5.1.*|5.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gitamin\\Emoji\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gitamin\\Tests\\Emoji\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

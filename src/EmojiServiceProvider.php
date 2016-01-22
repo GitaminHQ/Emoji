@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Gitamin\Emoji;
+namespace GitaminHQ\Emoji;
 
 use Exception;
 use GuzzleHttp\Client;

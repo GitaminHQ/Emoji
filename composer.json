@@ -1,5 +1,5 @@
 {
-    "name": "gitamin/emoji",
+    "name": "gitaminhq/emoji",
     "description": "Emoji Parser For Gitamin",
     "keywords": ["emoji", "parser", "Emoji", "Gitamin"],
     "license": "MIT",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Gitamin\\Emoji\\": "src/"
+            "GitaminHQ\\Emoji\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gitamin\\Tests\\Emoji\\": "tests/"
+            "GitaminHQ\\Tests\\Emoji\\": "tests/"
         }
     },
     "config": {
